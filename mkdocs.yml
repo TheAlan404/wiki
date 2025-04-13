@@ -1,0 +1,37 @@
+site_name: Deniz's Journal
+repo_url: https://github.com/TheAlan404/wiki
+repo_name: TheAlan404/wiki
+theme:
+  name: material
+  icon:
+    repo: fontawesome/brands/github
+    logo: material/server
+  palette: 
+    scheme: slate
+    primary: deep purple
+    accent: purple
+  features:
+    - navigation.instant
+    - navigation.tracking
+    # - navigation.tabs
+    - navigation.path
+    - content.code.copy
+    - content.code.annotate
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - def_list
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.tabbed:
+      alternate_style: true
+
+
